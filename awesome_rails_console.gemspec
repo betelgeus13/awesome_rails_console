@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.license               = 'MIT'
 
   # Runtime dependencies
-  spec.add_dependency 'awesome_print'
+  spec.add_dependency 'awesome_print', '~> 1.9.3'
   spec.add_dependency 'pry-rails'
   spec.add_dependency 'railties'
 
